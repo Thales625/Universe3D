@@ -2,9 +2,7 @@ from ursina import *
 from json import loads
 from time import sleep
 
-from sys import path
-path.append('D:\Codes\www\Vector')
-from Vector import Vector3
+from PyVecs import Vector3
 
 def toVec3(vector3):
     return Vec3(vector3.x, vector3.y, vector3.z)
